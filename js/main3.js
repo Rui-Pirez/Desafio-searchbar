@@ -44,6 +44,6 @@ const outputHtml = fits => {
 };
 
 document.getElementById('countryList').innerHTML = html;
- }
-};
+ 
+;
 document.getElementById('search').addEventListener('input', () => searchcountry(search.value));

@@ -3,7 +3,7 @@ const productList = document.getElementById('match-list');
 
 //Obter Produtos do arquivo Json
 const searchproduct = async searchText => {
-  const res = await fetch('../data/products.json');
+  const res = await fetch('http://localhost:3000/items');
   const products   = await res.json();
   
 
@@ -43,6 +43,6 @@ const outputHtml = items => {
 
 document.getElementById('productlist').innerHTML = html;
  }
-};
+;
 document.getElementById('search').addEventListener('input', () => searchproduct(search.value))
 ;
