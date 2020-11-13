@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #2a2a2a;
+
+}
+
+.search-txt{
+border-color: #f54242;
+background:#f1f1f1;
+width: 200px;
+}
+
+.search-txt a.hoover{
+border-color: rgb(13, 13, 107);
+}
+
+.search-txt a.active {
+  border-color: rgb(10, 41, 126);
+  color: white;
+}
+
+.search-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #F5F5F5;
+  height: 40px;
+  width: 250.98px;;
+  border-radius: 5px 88px 88px 5px;
+  padding: 10px;
+}
+
+#result{
+  position: absolute;
+  width:  100%;
+  max-width: 870px;
+  cursor: pointer;
+  overflow-y: auto;
+  max-height: 600px;
+  box-sizing: border-box;
+  z-index: 1001;
+
+  }
+
+
+  .link-class:hover{
+    background-color: #000000;
+  }

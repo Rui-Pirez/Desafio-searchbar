@@ -1,0 +1,46 @@
+body {
+  background-color: white;
+  padding: 0 0 0 20%;
+  margin: 5%;
+}
+
+#productlist {
+  width: 70%;
+  padding-left: 11%;
+}
+
+
+.search-box{
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  background: #F5F5F5;
+  height: 40px;
+  width: 315.98px;
+  border-radius: 5px 88px 88px 5px;
+  padding: 10px;
+}
+
+.input-icons{
+  border-color: rgb(255, 0, 0);
+  width: 260px;
+  margin-top: -10px;
+  margin-right: 20px;
+}
+
+.input-icons a.hover{
+  border-color: rgb(150, 150, 248);
+  }
+
+
+
+#id-icon{
+margin-left: -50px;
+color: rgb(219, 35, 35);
+}
+
+
+.text-center{
+  color: black;
+}
